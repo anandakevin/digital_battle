@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="pics/logo.png">
+</head>
+<body>
+	<header class="center">
+		<a href="home.html"><img src="pics/logo.png" alt="" class="header-logo"></a>
+	</header>
+	<ul id="topnav" class ="topnav shadow-8 transition-3">
+		<li class="icon"><a href="javascript:void(0);" onclick="expandNavBar()"><img class="logo" src="pics/burgerbtn.png" alt=""></a></li>
+		<li class="active center"><a href="home.html">Home</a></li>
+		<li class="center"><a href="news.html">News</a></li>
+		<li class="center"><a href="events.html">Events</a></li>
+		<li class="dropdown center"><a href="gallery.html">Gallery</a>
+			<ul class="dropdown-content">
+				<li><a href="heroes.html">Heroes</a></li>
+				<li><a href="spells.html">Spells</a></li>
+			</ul>
+		</li>
+		<li class="center"><a href="about.html">About us</a></li>
+		<li class="center"><a href="register.html">Register</a></li>
+	</ul>
+	<div class="content">
+		<div class="text-head"><a href="home.html">Home</a></div>
+		<div class="slideshow-bigcontainer">
+			<div class="slideshow-second-bigcontainer">
+				<div class="slideshow-container">
+					<div class="slides-left fade">
+						<div class="numbertext">1 / 3</div>
+						<img src="pics/hero3.jpg">
+					</div>
+					<div class="slides-left fade">
+						<div class="numbertext">2 / 3</div>
+						<img src="pics/vikemon.jpg">
+					</div>
+					<div class="slides-left fade">
+						<div class="numbertext">3 / 3</div>
+						<img src="pics/maintenance.jpg">
+					</div>
+					<a class="prev" id="prev" onclick="changeSlideNumber(-1)"></a>
+					<a class="next" id="next" onclick="changeSlideNumber(1)"></a>
+				</div>
+				<div class="slideshow-container">
+						<div class="slides-right fade">
+							<div class="slideshow-caption">
+								<a href="news.html#news2"><p class="events-texthead center">
+									War Greymon<br>
+								</p></a>
+								<p class="events-textcontent center">
+										War Greymon is a Dragon Man Digimon whose name and design are derived 
+										from "War Greymon". The strongest dragon warrior, with a body clad in 
+										armor of the super-metal "Chrome Digizoid", it is the ultimate form of 
+										Greymon-species Digimon. Though it differs from the gigantic figure seen 
+										in Greymon-species Digimon, and has the form of a Man-type, it has rapidly 
+										improved its speed and power, and it is likely impossible to defeat 
+										it with the attacks of an Ultimate Digimon. The "Dramon Killers" equipped
+										to both of ith arms exhibit immense power against Dramon-species Digimon,
+										while simultaneously being a two edged sword that completely endangers itself. 
+										Also, when the shells equipped on its back unite into one, the become 
+										the "Brave Shield", which is the strongest and toughest shield. It is 
+										said that the moment that a true hero, among all the mighty that have been 
+										through many battles, awakens to its own mission, it Digivolves into WarGreymon.
+										It bears the Crest of Courage on the Brave Shield.
+								</p>								
+							</div>
+						</div>
+						<div class="slides-right fade">
+							<div class="slideshow-caption">
+								<a href="news.html#news3"><p class="events-texthead center">
+									Vikemon
+								</p></a>
+								<p class="events-textcontent center">
+										Vikemon is a Beast Man Digimon whose name and design are derived from 
+										the Viking Berserker. It is a Mega Digimon which governs the freezing
+										lands of the permafrost, where nothing ever thaws. Its fur has become
+										like ice crystals, and is said to be as hard as Chrome Digizoid. With
+										the morning star "Mjöllnir" it carries on its back, it can annihilate
+										a mountain in one swing, distorting space itself. It manages the Ikkakumon 
+										and Zudomon corps, and although in the midst of battle it appears as
+										a heartless berserker, it shows a face of great compassion for its subordinates.
+								</p>
+							</div>
+						</div>
+						<div class="slides-right fade">
+							<div class="slideshow-caption">
+								<a href="news.html#news1"><p class="events-texthead center">Upcoming Maintenance Server at 28 March 2018</p></a>
+								<p class="events-textcontent center">
+										Hello fellow players! We know that you really love to play our games, but we are sorry to announce this.
+										As the title suggests, we are going to have a routine maintenance in such a near time, which is at 28 March of this glorius year!
+										We apologize for the sudden announcement and for the unconvinience of this maintenance. We are hoping we'll be able to serve
+										you better in the future. Stay tuned!
+								</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="dots center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+		<div class="fullwidth">
+			<div class="text-head">
+				Top Battles
+			</div>
+			<div class="bigcontainer-wrapper">
+				<div class="topbattle-row-container">
+					<div class="minibattle-container">
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								<img src="nationalities/au.png" alt="P1" class="logo-battle">
+							</div>
+							<div class="fullwidth">
+								VS
+							</div>
+							<div class="fullwidth">
+								<img src="nationalities/cu.png" alt="P2" class="logo-battle">
+							</div>
+						</div>
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								5
+							</div>
+							<div class="fullwidth">
+								-	
+							</div>
+							<div class="fullwidth">
+								7
+							</div>
+						</div>
+					</div>
+					<div class="minibattle-container">
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								<img src="nationalities/ee.png" alt="P1" class="logo-battle">		
+							</div>
+							<div class="fullwidth">
+								VS
+							</div>
+							<div class="fullwidth">
+								<img src="nationalities/id.png" alt="P2" class="logo-battle">															
+							</div>
+						</div>
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								2
+							</div>
+							<div class="fullwidth">
+								-
+							</div>
+							<div class="fullwidth">
+								9
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="topbattle-row-container">	
+					<div class="minibattle-container">
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								<img src="nationalities/cy.png" alt="P1" class="logo-battle">
+							</div>
+							<div class="fullwidth">VS</div>
+							<div class="fullwidth">
+								<img src="nationalities/cu.png" alt="P2" class="logo-battle">
+							</div>
+						</div>
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">7</div>
+							<div class="fullwidth">-</div>
+							<div class="fullwidth">3</div>
+						</div>
+					</div>
+					<div class="minibattle-container">
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">
+								<img src="nationalities/dk.png" alt="P1" class="logo-battle">
+							</div>
+							<div class="fullwidth">VS</div>
+							<div class="fullwidth">
+								<img src="nationalities/jp.png" alt="P2" class="logo-battle">
+							</div>
+						</div>
+						<div class="center caption-battle halfheight">
+							<div class="fullwidth">9</div>
+							<div class="fullwidth">-</div>
+							<div class="fullwidth">4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<footer>
+		<div>
+			&copy; Copyright Mobile .Inc 2018
+		</div>
+		<div>
+			Visit our Fan Page!
+		</div>
+		<div class="logo-container">
+			<a href="http://www.facebook.com"><img src="pics/facebook.png" alt="Facebook Page" class="logo"></a>
+			<a href="http://plus.google.com"><img src="pics/googleplus.png" alt="Google Plus Page" class="logo"></a>
+			<a href="http://twitter.com"><img src="pics/twitter.png" alt="Twitter Page" class="logo"></a>
+			<a href="http://instagram.com"><img src="pics/instagram.png" alt="Instagram Page" class="logo"></a>
+		</div>
+		<div>
+			<a href="help.html">Need Help?</a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
