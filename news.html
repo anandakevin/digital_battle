@@ -1,117 +1,162 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>News</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="pics/logo.png">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="pics/logo.png" />
+  </head>
+  <body>
     <header class="center">
-        <a href="home.html"><img src="pics/logo.png" alt="" class="header-logo"></a>
+      <a href="index.html"
+        ><img src="pics/logo.png" alt="" class="header-logo"
+      /></a>
     </header>
-    <ul id="topnav" class ="topnav shadow-8 transition-3">
-        <li class="icon"><a href="javascript:void(0);" onclick="expandNavBar()"><img class="logo" src="pics/burgerbtn.png" alt=""></a></li>
-        <li class="center"><a href="home.html">Home</a></li>
-        <li class="center active"><a href="news.html">News</a></li>
-        <li class="center"><a href="events.html">Events</a></li>
-        <li class="dropdown center"><a href="gallery.html">Gallery</a>
-            <ul class="dropdown-content shadow-8">
-                <li><a href="heroes.html">Heroes</a></li>
-                <li><a href="spells.html">Spells</a></li>
-            </ul>
-        </li>
-        <li class="center"><a href="about.html">About us</a></li>
-        <li class="center"><a href="register.html">Register</a></li>
+    <ul id="topnav" class="topnav shadow-8 transition-3">
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="expandNavBar()"
+          ><img class="logo" src="pics/burgerbtn.png" alt=""
+        /></a>
+      </li>
+      <li class="center"><a href="index.html">Home</a></li>
+      <li class="center active"><a href="news.html">News</a></li>
+      <li class="center"><a href="events.html">Events</a></li>
+      <li class="dropdown center">
+        <a href="gallery.html">Gallery</a>
+        <ul class="dropdown-content shadow-8">
+          <li><a href="heroes.html">Heroes</a></li>
+          <li><a href="spells.html">Spells</a></li>
+        </ul>
+      </li>
+      <li class="center"><a href="about.html">About us</a></li>
+      <li class="center"><a href="register.html">Register</a></li>
     </ul>
     <div class="content">
-        <div class="text-head" id="up"><a href="news.html">News</a></div>
-        <div class="bigcontainer-wrapper paddingbottom40 paddingtop40">
-            <div class="heroes-wrapper" id="news1">
-                <div class="center">
-                    <div class="pic-container">
-                        <img class="zoomin" src="pics/maintenance.jpg" alt="News Picture" title="Click here to continue">
-                    </div>
-                </div>
-                <div class="news-text">
-                    <p class="news-texthead news-textcontent center">Upcoming Maintenance Server at 28 March 2018</p>
-                    <p class="news-textcontent center">
-                        Hello fellow players! We know that you really love to play our games, but we are sorry to announce this.
-                        As the title suggests, we are going to have a routine maintenance in such a near time, which is at 28 March of this glorius year!
-                        We apologize for the sudden announcement and for the unconvinience of this maintenance. We are hoping we'll be able to serve
-                        you better in the future. Stay tuned!
-                    </p>
-                </div>
+      <div class="text-head" id="up"><a href="news.html">News</a></div>
+      <div class="bigcontainer-wrapper paddingbottom40 paddingtop40">
+        <div class="heroes-wrapper" id="news1">
+          <div class="center">
+            <div class="pic-container">
+              <img
+                class="zoomin"
+                src="pics/maintenance.jpg"
+                alt="News Picture"
+                title="Click here to continue"
+              />
             </div>
-            <div class="heroes-wrapper" id="news2">
-                <div class="center">
-                    <div class="pic-container">
-                        <img class="zoomin" id="pic2" src="pics/hero3.jpg" alt="News Picture" title="War Greymon" onmouseover="hover2(this);" onmouseout="unhover2(this);">
-                    </div>
-                </div>
-                <div class="news-text">
-                    <p class="news-texthead news-textcontent center">A new hero comes in!</p>
-                    <p class="news-textcontent center">
-                        War Greymon is a Dragon Man Digimon whose name and design are derived 
-                        from "War Greymon". The strongest dragon warrior, with a body clad in 
-                        armor of the super-metal "Chrome Digizoid", it is the ultimate form of 
-                        Greymon-species Digimon. Though it differs from the gigantic figure seen 
-                        in Greymon-species Digimon, and has the form of a Man-type, it has rapidly 
-                        improved its speed and power, and it is likely impossible to defeat 
-                        it with the attacks of an Ultimate Digimon. The "Dramon Killers" equipped
-                        to both of ith arms exhibit immense power against Dramon-species Digimon,
-                        while simultaneously being a two edged sword that completely endangers itself. 
-                        Also, when the shells equipped on its back unite into one, the become 
-                        the "Brave Shield", which is the strongest and toughest shield. It is 
-                        said that the moment that a true hero, among all the mighty that have been 
-                        through many battles, awakens to its own mission, it Digivolves into WarGreymon.
-                        It bears the Crest of Courage on the Brave Shield.
-                    </p>
-                    <!-- <div class="bigcontainer-wrapper">                  
+          </div>
+          <div class="news-text">
+            <p class="news-texthead news-textcontent center">
+              Upcoming Maintenance Server at 28 March 2018
+            </p>
+            <p class="news-textcontent center">
+              Hello fellow players! We know that you really love to play our
+              games, but we are sorry to announce this. As the title suggests,
+              we are going to have a routine maintenance in such a near time,
+              which is at 28 March of this glorius year! We apologize for the
+              sudden announcement and for the unconvinience of this maintenance.
+              We are hoping we'll be able to serve you better in the future.
+              Stay tuned!
+            </p>
+          </div>
+        </div>
+        <div class="heroes-wrapper" id="news2">
+          <div class="center">
+            <div class="pic-container">
+              <img
+                class="zoomin"
+                id="pic2"
+                src="pics/hero3.jpg"
+                alt="News Picture"
+                title="War Greymon"
+                onmouseover="hover2(this);"
+                onmouseout="unhover2(this);"
+              />
+            </div>
+          </div>
+          <div class="news-text">
+            <p class="news-texthead news-textcontent center">
+              A new hero comes in!
+            </p>
+            <p class="news-textcontent center">
+              War Greymon is a Dragon Man Digimon whose name and design are
+              derived from "War Greymon". The strongest dragon warrior, with a
+              body clad in armor of the super-metal "Chrome Digizoid", it is the
+              ultimate form of Greymon-species Digimon. Though it differs from
+              the gigantic figure seen in Greymon-species Digimon, and has the
+              form of a Man-type, it has rapidly improved its speed and power,
+              and it is likely impossible to defeat it with the attacks of an
+              Ultimate Digimon. The "Dramon Killers" equipped to both of ith
+              arms exhibit immense power against Dramon-species Digimon, while
+              simultaneously being a two edged sword that completely endangers
+              itself. Also, when the shells equipped on its back unite into one,
+              the become the "Brave Shield", which is the strongest and toughest
+              shield. It is said that the moment that a true hero, among all the
+              mighty that have been through many battles, awakens to its own
+              mission, it Digivolves into WarGreymon. It bears the Crest of
+              Courage on the Brave Shield.
+            </p>
+            <!-- <div class="bigcontainer-wrapper">                  
                         <div class="" id="hero1a">aa</div>
                     </div> -->
-                </div>
-            </div>
-            <div class="heroes-wrapper" id="news3">
-                <div class="center">
-                    <div class="pic-container">
-                        <img class="zoomin" id="pic3" src="pics/vikemon.jpg" alt="News Picture" title="Click here to continue" onmouseover="hover3(this);" onmouseout="unhover3(this);">
-                    </div>
-                </div>
-                <div class="news-text">
-                    <p class="news-texthead news-textcontent center">A new hero comes in!</p>
-                    <p class="news-textcontent center">
-                        Vikemon is a Beast Man Digimon whose name and design are derived from 
-                        the Viking Berserker. It is a Mega Digimon which governs the freezing
-                        lands of the permafrost, where nothing ever thaws. Its fur has become
-                        like ice crystals, and is said to be as hard as Chrome Digizoid. With
-                        the morning star "Mjöllnir" it carries on its back, it can annihilate
-                        a mountain in one swing, distorting space itself. It manages the Ikkakumon 
-                        and Zudomon corps, and although in the midst of battle it appears as
-                        a heartless berserker, it shows a face of great compassion for its subordinates.
-                    </p>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="heroes-wrapper" id="news3">
+          <div class="center">
+            <div class="pic-container">
+              <img
+                class="zoomin"
+                id="pic3"
+                src="pics/vikemon.jpg"
+                alt="News Picture"
+                title="Click here to continue"
+                onmouseover="hover3(this);"
+                onmouseout="unhover3(this);"
+              />
+            </div>
+          </div>
+          <div class="news-text">
+            <p class="news-texthead news-textcontent center">
+              A new hero comes in!
+            </p>
+            <p class="news-textcontent center">
+              Vikemon is a Beast Man Digimon whose name and design are derived
+              from the Viking Berserker. It is a Mega Digimon which governs the
+              freezing lands of the permafrost, where nothing ever thaws. Its
+              fur has become like ice crystals, and is said to be as hard as
+              Chrome Digizoid. With the morning star "Mjöllnir" it carries on
+              its back, it can annihilate a mountain in one swing, distorting
+              space itself. It manages the Ikkakumon and Zudomon corps, and
+              although in the midst of battle it appears as a heartless
+              berserker, it shows a face of great compassion for its
+              subordinates.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
-        <div>
-            &copy; Copyright Ananda Kevin 2018
-        </div>
-        <div>
-            Visit our Fan Page!
-        </div>
-        <div class="logo-container">
-            <a href="http://www.facebook.com"><img src="pics/facebook.png" alt="Facebook Page" class="logo"></a>
-            <a href="http://plus.google.com"><img src="pics/googleplus.png" alt="Google Plus Page" class="logo"></a>
-            <a href="http://twitter.com"><img src="pics/twitter.png" alt="Twitter Page" class="logo"></a>
-            <a href="http://instagram.com"><img src="pics/instagram.png" alt="Instagram Page" class="logo"></a>
-        </div>
-        <div>
-            <a href="help.html">Need Help?</a>
-        </div>
+      <div>&copy; Copyright Ananda Kevin 2018</div>
+      <div>Visit our Fan Page!</div>
+      <div class="logo-container">
+        <a href="http://www.facebook.com"
+          ><img src="pics/facebook.png" alt="Facebook Page" class="logo"
+        /></a>
+        <a href="http://plus.google.com"
+          ><img src="pics/googleplus.png" alt="Google Plus Page" class="logo"
+        /></a>
+        <a href="http://twitter.com"
+          ><img src="pics/twitter.png" alt="Twitter Page" class="logo"
+        /></a>
+        <a href="http://instagram.com"
+          ><img src="pics/instagram.png" alt="Instagram Page" class="logo"
+        /></a>
+      </div>
+      <div>
+        <a href="help.html">Need Help?</a>
+      </div>
     </footer>
     <script type="text/javascript" src="script.js"></script>
-</body>
+  </body>
 </html>
